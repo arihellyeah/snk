@@ -930,7 +930,7 @@ SNAKE.Board = SNAKE.Board || (function() {
             var cWidth, cHeight;
             var cTop, cLeft;
             if (config.fullScreen === true) {
-                cTop = 0;
+                cTop = 40;
                 cLeft = 0;
                 cWidth = getClientWidth()-20;
                 cHeight = getClientHeight()-20;
@@ -1101,3 +1101,4 @@ SNAKE.Board = SNAKE.Board || (function() {
 
     }; // end return function
 })();  
+a
